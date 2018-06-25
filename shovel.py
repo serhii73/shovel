@@ -8,7 +8,7 @@ from math import pi
 
 
 class Shovel:
-    """A useful instrument for everyone human."""
+    """Shovel interface."""
 
     def __init__(self, color, weight, length, diameter):
         """Shovel parameters."""
