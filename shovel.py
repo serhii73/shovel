@@ -8,11 +8,7 @@ from math import pi
 
 
 class Shovel:
-    """Interface to shovel looks like removing debris or planting potatoes.
-
-    Use a shovel is an element of self-defense.
-    Print the area of handle shovel.
-    """
+    """A useful instrument for everyone human."""
 
     def __init__(self, color, weight, length, diameter):
         """Shovel parameters."""
