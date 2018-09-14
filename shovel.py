@@ -4,18 +4,19 @@
 This module shows what a shovel is, why it is needed,
 what can be done with it, its characteristics are shown.
 """
+from dataclasses import dataclass
 from math import pi
 
 
+@dataclass
 class Shovel:
     """Shovel interface."""
 
-    def __init__(self, color, weight, length, diameter):
-        """Shovel parameters."""
-        self.color = color
-        self.weight = weight
-        self.length = length
-        self.diameter = diameter
+    # Shovel parameters.
+    color: str
+    weight: int
+    length: float
+    diameter: float
 
     def area_handle(self):
         """Print the cylinder(handle shovel) area."""
